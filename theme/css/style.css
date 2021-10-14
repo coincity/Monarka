@@ -1,0 +1,26 @@
+.message-list-container {
+    height: auto !important;
+}
+
+.notification-wrap {
+    height: auto !important;
+}
+
+label{
+	display:inline-block !important;
+}
+
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eeeeee;
+    font-weight: bold;
+  }
+
+  b, strong {
+    font-weight: bold;
+}
+
+.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+    display: block;
+  }

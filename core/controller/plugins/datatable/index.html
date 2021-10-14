@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+	<title>Responsive example - Class name</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="css/dataTables.responsive.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="../jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="js/dataTables.responsive.js"></script>
+	<script type="text/javascript" language="javascript" class="init">
+
+
+
+$(document).ready(function() {
+	$('#example').DataTable();
+} );
+
+
+
+	</script>
+</head>
+
+<body class="dt-example">
+	<div class="container">
+		<section>
+			<h1>Responsive example <span>Class name</span></h1>
+
+			<div class="info">
+				<p>The easiest way to initialise the Responsive extension for DataTables is simply to add the class <code class="string" title="String">responsive</code> to the
+				table's class name. When the DataTable is initialised the Responsive extension will automatically enable itself on these tables.</p>
+
+				<p>The may also use the class <code>dt-responsive</code> to perform the same action, since <code>responsive</code> may be used in your stylesheet, or may have some
+				other meaning in a CSS framework being used (for example Bootstrap).</p>
+			</div>
+
+			<table id="example" class="display responsive nowrap" cellspacing="0" width="100%">
+				<thead>
+					<tr>
+						<th>First name</th>
+						<th>Last name</th>
+						<th>Position</th>
+						<th>Office</th>
+						<th>Age</th>
+						<th>Start date</th>
+						<th>Salary</th>
+						<th>Extn.</th>
+						<th>E-mail</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Tiger</td>
+						<td>Nixon</td>
+						<td>System Architect</td>
+						<td>Edinburgh</td>
+						<td>61</td>
+						<td>2011/04/25</td>
+						<td>$320,800</td>
+						<td>5421</td>
+						<td>t.nixon@datatables.net</td>
+					</tr>
+					<tr>
+						<td>Garrett</td>
+						<td>Winters</td>
+						<td>Accountant</td>
+						<td>Tokyo</td>
+						<td>63</td>
+						<td>2011/07/25</td>
+						<td>$170,750</td>
+						<td>8422</td>
+						<td>g.winters@datatables.net</td>
+					</tr>
+					<tr>
+						<td>Ashton</td>
+						<td>Cox</td>
+						<td>Junior Technical Author</td>
+						<td>San Francisco</td>
+						<td>66</td>
+						<td>2009/01/12</td>
+						<td>$86,000</td>
+						<td>1562</td>
+						<td>a.cox@datatables.net</td>
+					</tr>
+					<tr>
+						<td>Cedric</td>
+						<td>Kelly</td>
+						<td>Senior Javascript Developer</td>
+						<td>Edinburgh</td>
+						<td>22</td>
+						<td>2012/03/29</td>
+						<td>$433,060</td>
+						<td>6224</td>
+						<td>c.kelly@datatables.net</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</div>
+
+</body>
+</html>
